@@ -71,6 +71,9 @@ body {
   transform: skew(30px) rotate(360deg);
   font-style: italic;
   border-bottom: 25px solid  #ff85e4;
+  border-left: 25px solid  #84fab0;
+  border-right: 25px solid  #68e0cf;
+  border-top: 25px solid  #229efd; 
   border-radius: 50%;
   font-weight: bold;
 }
