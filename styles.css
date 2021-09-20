@@ -65,7 +65,14 @@ body {
 
 .hold {
   background: linear-gradient(90deg, #84fab0 0%, #8fd3f4 100%);
-  box-shadow:26px 26px 23px 23px #ff85e4;
+  box-shadow:26px 26px 23px 23px linear-gradient(90deg, #84fab0 0%, #8fd3f4 100%);
+  color: #eee;
+  text-transform: uppercase;
+  transform: skew(30px) rotate(360deg);
+  font-style: italic;
+  border-bottom: 25px solid  #ff85e4;
+  border-radius: 50%;
+  font-weight: bold;
 }
 
 .hide {
